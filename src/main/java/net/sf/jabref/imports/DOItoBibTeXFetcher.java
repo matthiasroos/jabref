@@ -33,7 +33,7 @@ import net.sf.jabref.util.Util;
 
 public class DOItoBibTeXFetcher implements EntryFetcher {
 
-    private static final String URL_PATTERN = "http://dx.doi.org/%s";
+    private static final String URL_PATTERN = "http://data.crossref.org/%s";
     private final CaseKeeper caseKeeper = new CaseKeeper();
     private final UnitFormatter unitFormatter = new UnitFormatter();
 
